@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.nav {
+    background: #283054;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.hero{
+    background: #283054;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+
+}
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 350px;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 39px 0 96px 0;
+    background: url("img/aboutmepic.png") no-repeat right 40% bottom 20%;
+}
+.project_title{
+    background: #283054;
+    width: 100%;
+    padding-top: 29px;
+    padding-left: 155px;
+    font-family: 'Montserrat', sans-serif;
+    font-weightc: 600;
+    font-size:40px;
+    color: white;
+    padding-bottom: 79px;
+
+}
+.project{
+    padding-bottom: 100px;
+
+    background: #283054;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+
+
+
+.foot{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+
+
+}
+
+/* Navigation */
+
+
+.nav_elements{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 60px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.nav_elements li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.nav_elements li a:hover {
+
+    color: #a9a9a9 ;
+
+
+}
+
+/* Hero section */
+.heroshot{
+
+
+
+
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+.hero_text h1 {
+
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    line-height: 90px;
+
+}
+.hero_text h2 {
+
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    color: white;
+    padding-bottom:20px ;
+
+
+
+}
+.mywork_button {
+
+    margin-bottom: 100px;
+    border: none;
+    padding:12px 68px;
+    border-radius:50px;
+    font-family: 'Hind', sans-serif;
+    font-weight:500;
+    font-size: 24px;
+    color: #283054;
+    background-color: white;
+    cursor: pointer;
+
+
+}
+.mywork_button:hover{
+
+    background-color: darkgrey;
+    color: #283054;
+
+
+
+}
+/*About me */
+
+
+.about_who_am_i{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.about_who_am_i h1{
+
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    text-align: right;
+
+
+}
+.about_who_am_i p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+
+}
+.about_what_i_do{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.about_what_i_do h1 {
+
+
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px
+
+}
+.about_what_i_do p {
+
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+
+
+
+}
+/* Projects */
+.brainster{
+    width: 370px;
+    height: 43.17px;
+    margin-left: 150px;
+}
+.galery{
+    width: 232px;
+    height: 252px;
+}
+.max_fit{
+    width: 270px;
+    height: 49.67px;
+    margin-right: 150px;
+}
+/* Footer */
+.foot {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding-top: 25px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size:18px;
+
+
+}
